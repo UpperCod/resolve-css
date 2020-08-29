@@ -4,5 +4,5 @@ declare module "resolve-css" {
         load: load,
         src: string,
         dir?: string
-    ): [string, T];
+    ): Promise<[string, T]>;
 }
